@@ -347,7 +347,6 @@
 		accordion();
 		smoothScroll();
 		scrlTop();
-		magnifPopup();
 		
 		heroWayPoint();
 		bioWayPoint();
