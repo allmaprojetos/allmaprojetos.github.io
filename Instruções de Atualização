@@ -1,0 +1,103 @@
+#################################################################################################
+#######################  Instruções de atualização do conteúdo: #################################
+#################################################################################################
+
+Todas as informações relativas a página principal do site são editáveis através da pasta content
+na raiz do diretório do github. Para atualizar cada sessão do site, siga os seguintes passos:
+
+
+QUEM SOMOS
+
+Para modificar o conteúdo da descrição (QUEM SOMOS) do site, basta editar o texto do arquivo
+descricao, localizado na no caminho ../content/descricao/descricao.html
+
+O texto escrito neste arquivo irá ser apresentado integralmente na parte QUEM SOMOS do site.
+
+MENINAS
+
+Nesta sessão está a foto das três gatinhas da Allma. Para alterar a foto de cada uma de vocês
+basta mudar as fotos com o nome de cada uma na pasta "../content/allma/", sendo que os três nomes
+devem ser:
+
+- mariloures
+- daypimenta
+- marifreitas
+
+PROJETOS
+
+A sessão de projetos pode ser alterada em QUATRO formas. As QUATRO formas estão expostas abaixo:
+
+PROJETOS - CAPA
+
+Para alterar a imagem de cada projeto é simples. Basta adicionar a imagem que se deseja utilizar
+com o nome capa na pasta "../content/projetos/projetoX/".
+
+Substitui-a o X pelo número do projeto (que deve ser de 1 a 6) e a imagem deve ser um arquivo de
+imagem válido
+
+PROJETOS - TÍTULO
+
+O Título é a descrição que aparece sobre a imagem ao passar o mouse. Além disto é o texto que 
+substitui a imagem no caso de falha em seu carregamento. Para alterar seu conteúdo, basta editar
+o arquivo "../content/projetos/projetoX/titulo.html"
+
+PROJETOS - DESCRIÇÃO
+
+Ao clicar em cada projeto, o cliente poderá ver uma descrição geral do projeto em questão e também
+um albúm de fotos desse projeto. 
+
+A descrição do projeto poderá ser editada através da edição do conteúdo do arquivo 
+"../content/projetos/projetoX/descricao.html"
+
+PROJETOS - IMAGENS
+
+As images que aparecem para exemplificar o projeto devem ser adicionadas na pasta
+"../content/projetos/projetoX/" com o nome "imagemY", sendo Y o número da imagem (devem haver
+cinco imagens para cada projeto, nem menos, nem mais) e X o número do projeto (1 a 6)
+
+FRASE DE EFEITO
+
+A frase pode ser alterada pelo conteúdo dos arquivos "frase.html" e "autor.html" que estão na pasta
+"../content/frase/"
+
+SERVIÇOS
+
+A sessão de serviços também pode ser alterada em mais formas. Cada uma delas está explicada abaixo:
+
+SERVIÇOS - DESCRIÇÃO
+
+A descrição da sessão de serviços pode ser modificada alterando o arquivo "descricao.html" na pasta
+"../content/servicos/"
+
+SERVIÇOS - MENUS
+
+Haverão cinco serviços disponíveis para serem editados. Cada um terá um título e uma descrição que
+se abrirá quando o usuário clicar sobre o título. Para editar cada um destes itens, siga as instruções
+
+SERVIÇOS - MENUS - TITULO
+
+Edite o conteúdo do arquivo "titulo.html" na pasta "../content/menus/menuX/" onde X é o número do 
+menu, que varia de 1 a 5
+
+SERVIÇOS - MENUS - DESCRIÇÃO
+
+Edite o conteúdo do arquivo "descricao.html" na pasta "../content/menus/menuX/" onde X é o número do 
+menu, que varia de 1 a 5
+
+ENDEREÇO
+
+Para modificar o endereço, basta modificar o arquivo "endereco.html" na pasta "../content/contato/"
+
+TELEFONES
+
+Para modificar os telefones, basta trocar o conteúdo dos arquivos "telefoneX.html" na pasta
+"../content/contato/", sendo que X é o número do telefone, até 3
+
+E-MAIL
+
+Para modificar o e-mail, basta editar o arquivo  "email.html" na pasta "../content/contato/"
+
+
+
+
+
