@@ -114,15 +114,13 @@
 			<div class="container" id="bio-animate">
 				<div class="row row-padded">
 					<div class="col-md-3">
-						<h2 class="fh5co-section-heading to-animate">Biography<span class="fh5co-border"></span></h2>
+						<h2 class="fh5co-section-heading to-animate">Quem Somos<span class="fh5co-border"></span></h2>
 					</div>
 					<div class="col-md-8 col-md-push-1">
 						<div class="row">
-							<div class="col-md-12 to-animate" style="text-align: justify" id='descricao'>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloremque nesciunt nulla rerum. Ut ipsum tempora magni exercitationem officiis maxime in totam cupiditate doloribus repellat dolorem modi aperiam vitae quia sit asperiores saepe labore eligendi quisquam a eaque incidunt.
-								Accusamus in odio nostrum provident assumenda magni asperiores quia dolorem sint nulla incidunt distinctio nesciunt maiores. Ex modi est soluta consequatur. Sequi cumque tempora blanditiis repellat quisquam at a dolorum molestias itaque eaque! Dolor doloremque expedita voluptas blanditiis modi.
-								Right molestiae similique enim aliquam deleniti necessitatibus commodi ut blanditiis facere dolore in praesentium? Cupiditate tempore impedit nostrum eveniet deserunt natus dolor recusandae pariatur eligendi unde molestiae autem veniam voluptatem porro quaerat.
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolor pariatur quidem ab eos saepe suscipit ducimus vitae blanditiis vero qui quam ipsa possimus alias dolore culpa placeat nesciunt quas!
+							<div class="col-md-6 to-animate" style="text-align: justify" id='descricao-col-1'>
+							</div>
+							<div class="col-md-6 to-animate" style="text-align: justify" id='descricao-col-2'>
 							</div>
 						</div>
 					</div>
@@ -131,7 +129,7 @@
 			</div>
 			<!-- END .container -->
 			
-			<div class="fh5co-section-seperator" style="background-image: url(https://allmaprojetos.github.io/images/hero-2.jpg);" data-stellar-background-ratio="0.5">
+			<div class="fh5co-section-seperator" style="background-image: url(https://allmaprojetos.github.io/images/fundoverde.jpg);" data-stellar-background-ratio="0.5">
 				<div class="fh5co-overlay"></div>
 				<div class="container" id="counter-animate">
 					<div class="fh5co-section-content-wrap">
@@ -160,7 +158,7 @@
 			<div class="container" id="projects-animate">
 				<div class="row row-padded">
 					<div class="col-md-3">
-						<h2 class="fh5co-section-heading to-animate">Projects<span class="fh5co-border"></span></h2>
+						<h2 class="fh5co-section-heading to-animate">Projetos<span class="fh5co-border"></span></h2>
 						<p class="to-animate">Libero velit fugit blanditiis tempora repellat iste inventore amet quaerat ex aliquid sint labore placeat esse.</p>
 					</div>
 					<div class="col-md-8 col-md-push-1">
@@ -169,7 +167,27 @@
 								<a href="https://allmaprojetos.github.io/images/work_1.jpg" class="image-popup">
 									<div class="fh5co-overlay-text">Project no. 1</div>
 									<div class="fh5co-overlay"></div>
-									<img src="https://allmaprojetos.github.io/images/work_1.jpg" alt="Free HTML5 Template" class="img-responsive">
+									<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#project1"><img src="https://allmaprojetos.github.io/images/work_1.jpg" alt="Free HTML5</button>Template" class="img-responsive">
+									<!-- Modal  Project1-->
+									<div id="project1" class="modal fade" role="dialog">
+  										<div class="modal-dialog">
+
+   										 	<!-- Modal content-->
+    										<div class="modal-content">
+      											<div class="modal-header">
+        											<button type="button" class="close" data-dismiss="modal">&times;</button>
+        											<h4 class="modal-title">Modal Header</h4>
+      											</div>
+      											<div class="modal-body">
+        											<p>Some text in the modal.</p>
+      											</div>
+      											<div class="modal-footer">
+        											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      											</div>
+    										</div>
+
+  										</div>
+									</div>
 								</a>
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
