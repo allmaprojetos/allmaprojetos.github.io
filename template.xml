@@ -327,7 +327,7 @@
 										<li class="to-animate"><i class="icon-phone"></i> <span id="telefone1">(123) 465-6789</span></li>
 										<li class="to-animate"><i class="icon-phone"></i> <span id="telefone2">(123) 465-6789</span></li>
 										<li class="to-animate"><i class="icon-phone"></i> <span id="telefone3">(123) 465-6789</span></li>
-										<li class="to-animate"><i class="icon-email"></i><span id="email">info@freehtml5.co</span></li>
+										<li class="to-animate"><i class="icon-email"></i><span id="email"><info@freehtml5.co</span></li>
 									</ul>
 								</div>
 								<!--
