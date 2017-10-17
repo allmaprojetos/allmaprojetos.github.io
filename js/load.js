@@ -9,6 +9,10 @@ $(document).ready(function(){
 
 
     //Projetos
+    //Descrição
+    $.get("https://allmaprojetos.github.io/content/projetos/descricao.html", function(data, status){
+        $('#projetos-descricao').html(data);
+    });
     //Projeto 1
     $.get("https://allmaprojetos.github.io/content/projetos/projeto1/descricao.html", function(data, status){
         $('#projeto-1-descricao').html(data);
