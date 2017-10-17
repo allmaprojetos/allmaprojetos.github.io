@@ -54,10 +54,8 @@ $(document).ready(function(){
 
 
     //Frase
-    });
     $.get("https://allmaprojetos.github.io/content/frase/frase.html", function(data, status){
         $('#frase-frase').html(data);
-    });
     });
     $.get("https://allmaprojetos.github.io/content/frase/autor.html", function(data, status){
         $('#frase-autor').html(data);
