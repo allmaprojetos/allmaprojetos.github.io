@@ -63,12 +63,12 @@
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
 	
+	<!-- Shorelines Font -->
+	<link rel="stylesheet" href="https://allmaprojetos.github.io/css/shorelines.css">
 	<!-- Animate.css -->
 	<link rel="stylesheet"href="https://allmaprojetos.github.io/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
 	<link rel="stylesheet" href="https://allmaprojetos.github.io/css/icomoon.css">
-	<!-- Shorelines Font -->
-	<link rel="stylesheet" href="https://allmaprojetos.github.io/css/shorelines.css">
 	<!-- Theme Style -->
 	<link rel="stylesheet" href="https://allmaprojetos.github.io/css/style.css">
 	<!-- Modernizr JS -->
