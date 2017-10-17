@@ -123,7 +123,7 @@ $(document).ready(function(){
     });
     //E-mail
     $.get("https://allmaprojetos.github.io/content/contato/email.html", function(data, status){
-        $('#email').html(data);
+        $('#email').html("<a href='mailto:'" + data + ">"+ data +"</a>");
     });
     //Telefone 1
     $.get("https://allmaprojetos.github.io/content/contato/telefone1.html", function(data, status){
