@@ -89,14 +89,14 @@
 <![CDATA[
 <!--Body do TEMPLATE VERGE-->
 
-		<header role="banner" id="fh5co-header" style="background-image: url(https://allmaprojetos.github.io/images/capa-pura-laranja.png);" data-stellar-background-ratio="0.5">
+		<header role="banner" id="fh5co-header" style="background-image: url(https://allmaprojetos.github.io/images/banner.png);" data-stellar-background-ratio="0.5">
 			<div class="fh5co-overlay"></div>
 			<div class="container">
 				<div class="fh5co-intro-wrap">
 					<div class="fh5co-intro">
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2 text-center">
-								<h1 class="fh5co-intro-lead animate-1 to-animate"><img src="https://allmaprojetos.github.io/images/allma-logo-branca.png" alt="Smiley face" width="30%"></h1>
+								<h1 class="fh5co-intro-lead animate-1 to-animate"><img src="https://allmaprojetos.github.io/images/logo.png" alt="Smiley face" width="40%"></h1>
 								<h2 class="fh5co-intro-sub animate-2 to-animate">design e arquitetura</h2>
 								<p class="fh5co-social text-center" id="fh5co-intro-social">
 									<a href="https://www.facebook.com/AllmaProjetos/" class="to-animate"><i class="icon-facebook-with-circle"></i></a>

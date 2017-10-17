@@ -1410,11 +1410,11 @@ textarea {
 }
 
 a {
-  color: #44da82;
+  color: #DD8962;
   text-decoration: none;
 }
 a:hover, a:focus {
-  color: #23af5d;
+  color: #DDA362;
   text-decoration: underline;
 }
 a:focus {
@@ -7461,7 +7461,7 @@ p {
   bottom: 0;
   height: 3px;
   position: absolute;
-  background: #DC7A56;
+  background: #DD8962;
 }
 @media screen and (max-width: 992px) {
   .fh5co-section-heading .fh5co-border {
