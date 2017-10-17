@@ -320,43 +320,44 @@
 									<ul class="fh5co-contact">
 										<li class="fh5co-contact-address to-animate">
 											<i class="icon-home"></i>
-											5555 Love Paradise 56 New Clity 5655, Excel Tower United Kingdom
+											<span id="endereco">5555 Love Paradise 56 New Clity 5655, Excel Tower United Kingdom</span>
 										</li>
-										<li class="to-animate"><i class="icon-phone"></i> (123) 465-6789</li>
-										<li class="to-animate"><i class="icon-email"></i>info@freehtml5.co</li>
-										<li class="to-animate"><i class="icon-globe"></i> <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></li>
+										<li class="to-animate"><i class="icon-phone"></i> <span id="telefone1">(123) 465-6789</span></li>
+										<li class="to-animate"><i class="icon-phone"></i> <span id="telefone2">(123) 465-6789</span></li>
+										<li class="to-animate"><i class="icon-phone"></i> <span id="telefone3">(123) 465-6789</span></li>
+										<li class="to-animate"><i class="icon-email"></i><span id="email">info@freehtml5.co</span></li>
 									</ul>
 								</div>
+								<form method="post" action="mailto:projetosallma@gmail.com">
+									<div class="col-md-8 col-md-push-1">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group to-animate">
+													<label for="name" class="sr-only">Nome</label>
+													<input type="text" id="name" class="form-control" placeholder="Name">
+												</div>
+												<div class="form-group to-animate">
+													<label for="email" class="sr-only">Email</label>
+													<input type="email" id="email" class="form-control" placeholder="Email">
+												</div>
+												<div class="form-group to-animate">
+													<label for="phone" class="sr-only">Telefone</label>
+													<input type="text" id="phone" class="form-control" placeholder="Phone">
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-group to-animate">
+													<label for="message" class="sr-only">Mensagem</label>
+													<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+												</div>
+												<div class="form-group to-animate">
+													<input type="submit" class="btn btn-primary btn-block" value="Send Message">
+												</div>
+											</div>
 
-								<div class="col-md-8 col-md-push-1">
-									<div class="row">
-										<div class="col-md-6">
-											<div class="form-group to-animate">
-												<label for="name" class="sr-only">Name</label>
-												<input type="text" id="name" class="form-control" placeholder="Name">
-											</div>
-											<div class="form-group to-animate">
-												<label for="email" class="sr-only">Email</label>
-												<input type="email" id="email" class="form-control" placeholder="Email">
-											</div>
-											<div class="form-group to-animate">
-												<label for="phone" class="sr-only">Phone</label>
-												<input type="text" id="phone" class="form-control" placeholder="Phone">
-											</div>
 										</div>
-										<div class="col-md-6">
-											<div class="form-group to-animate">
-												<label for="message" class="sr-only">Message</label>
-												<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
-											</div>
-											<div class="form-group to-animate">
-												<input type="submit" class="btn btn-primary btn-block" value="Send Message">
-											</div>
-										</div>
-
 									</div>
-								</div>
-
+								</form>
 							</div>
 						</div>
 					</div>

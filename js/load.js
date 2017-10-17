@@ -117,4 +117,25 @@ $(document).ready(function(){
         $('#menu5-descricao').html(data);
     });
 
+    //Endereço
+    $.get("https://allmaprojetos.github.io/content/contato/endereco.html", function(data, status){
+        $('#endereco').html(data);
+    });
+    //E-mail
+    $.get("https://allmaprojetos.github.io/content/contato/email.html", function(data, status){
+        $('#email').html(data);
+    });
+    //Telefone 1
+    $.get("https://allmaprojetos.github.io/content/contato/telefone1.html", function(data, status){
+        $('#telefone1').html(data);
+    });
+        //Telefone 2
+    $.get("https://allmaprojetos.github.io/content/contato/telefone2.html", function(data, status){
+        $('#telefone2').html(data);
+    });
+        //Telefone 3
+    $.get("https://allmaprojetos.github.io/content/contato/telefone3.html", function(data, status){
+        $('#telefone3').html(data);
+    });
+
 });
