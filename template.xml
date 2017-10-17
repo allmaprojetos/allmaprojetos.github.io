@@ -65,6 +65,8 @@
 	
 	<!-- Shorelines Font -->
 	<link rel="stylesheet" href="https://allmaprojetos.github.io/css/shorelines.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://allmaprojetos.github.io/css/bootstrap.min.css">
 	<!-- Animate.css -->
 	<link rel="stylesheet"href="https://allmaprojetos.github.io/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -89,7 +91,7 @@
 <![CDATA[
 <!--Body do TEMPLATE VERGE-->
 
-		<header role="banner" id="fh5co-header" style="background-image: url(https://allmaprojetos.github.io/images/banner.png); background-size: 100% 100%;">
+		<header role="banner" id="fh5co-header" style="background-image: url(https://allmaprojetos.github.io/images/banner.png);">
 			<div class="container">
 				<div class="fh5co-intro-wrap">
 					<div class="fh5co-intro">
@@ -128,7 +130,7 @@
 			</div>
 			<!-- END .container -->
 			
-			<div class="fh5co-section-seperator" style="background-image: url(https://allmaprojetos.github.io/images/bannerazul.png); background-size: 100% 100%;">
+			<div class="fh5co-section-seperator" style="background-image: url(https://allmaprojetos.github.io/images/bannerazul.png);">
 				<div class="container" id="counter-animate">
 					<div class="fh5co-section-content-wrap">
 						<div class="fh5co-section-content">
@@ -211,7 +213,7 @@
 			</div>
 			<!-- END .container -->
 
-			<div class="fh5co-section-seperator" id="testimony-animate" style="background-image: url(https://allmaprojetos.github.io/images/bannerverde.png); background-size: 100% 100%;">
+			<div class="fh5co-section-seperator" id="testimony-animate" style="background-image: url(https://allmaprojetos.github.io/images/bannerverde.png);">
 				<div class="container">
 					<div class="fh5co-section-content-wrap">
 						<div class="fh5co-section-content">
@@ -304,7 +306,7 @@
 			</div>
 			<!-- END .container -->
 
-			<div class="fh5co-section-seperator fh5co-section-seperator-white" id="contact-animate" style="background-image: url(https://allmaprojetos.github.io/images/bannercolorido.png); background-size: 100% 100%;">
+			<div class="fh5co-section-seperator fh5co-section-seperator-white" id="contact-animate" style="background-image: url(https://allmaprojetos.github.io/images/bannercolorido.png);">
 				<div class="container">
 					<div class="fh5co-section-content-wrap">
 						<div class="fh5co-section-content">
