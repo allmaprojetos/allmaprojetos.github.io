@@ -89,8 +89,7 @@
 <![CDATA[
 <!--Body do TEMPLATE VERGE-->
 
-		<header role="banner" id="fh5co-header" style="background-image: url(https://allmaprojetos.github.io/images/banner.png);" data-stellar-background-ratio="0.5">
-			<div class="fh5co-overlay"></div>
+		<header role="banner" id="fh5co-header" style="background-image: url(https://allmaprojetos.github.io/images/banner.png); background-repeat: repeat-x;" data-stellar-background-ratio="0.5">
 			<div class="container">
 				<div class="fh5co-intro-wrap">
 					<div class="fh5co-intro">
@@ -129,8 +128,7 @@
 			</div>
 			<!-- END .container -->
 			
-			<div class="fh5co-section-seperator" style="background-image: url(https://allmaprojetos.github.io/images/bannerverde.jpg);" data-stellar-background-ratio="0.5">
-				<div class="fh5co-overlay"></div>
+			<div class="fh5co-section-seperator" style="background-image: url(https://allmaprojetos.github.io/images/bannerverde.png); background-repeat: repeat-x;" data-stellar-background-ratio="0.5">
 				<div class="container" id="counter-animate">
 					<div class="fh5co-section-content-wrap">
 						<div class="fh5co-section-content">
@@ -213,8 +211,7 @@
 			</div>
 			<!-- END .container -->
 
-			<div class="fh5co-section-seperator" id="testimony-animate" style="background-image: url(https://allmaprojetos.github.io/images/bannerazul.jpg);" data-stellar-background-ratio="0.5">
-				<div class="fh5co-overlay"></div>
+			<div class="fh5co-section-seperator" id="testimony-animate" style="background-image: url(https://allmaprojetos.github.io/images/bannerazul.png); background-repeat: repeat-x;" data-stellar-background-ratio="0.5">
 				<div class="container">
 					<div class="fh5co-section-content-wrap">
 						<div class="fh5co-section-content">
@@ -307,16 +304,14 @@
 			</div>
 			<!-- END .container -->
 
-			<div class="fh5co-section-seperator fh5co-section-seperator-white" id="contact-animate" style="background-image: url(images/bannercolorido.jpg);" data-stellar-background-ratio="0.5">
-				<div class="fh5co-overlay"></div>
+			<div class="fh5co-section-seperator fh5co-section-seperator-white" id="contact-animate" style="background-image: url(https://allmaprojetos.github.io/images/bannercolorido.png); background-repeat: repeat-x;" data-stellar-background-ratio="0.5">
 				<div class="container">
 					<div class="fh5co-section-content-wrap">
 						<div class="fh5co-section-content">
 							<div class="row">
-								<div class="col-md-3"></div>
-								<div class="col-md-3"></div>
-								<div class="col-md-3"></div>
-								<div class="col-md-3">
+								<div class="col-md-4"></div>
+								<div class="col-md-4"></div>
+								<div class="col-md-4">
 									<h2 class="fh5co-section-heading to-animate">Nossos Contatos<span class="fh5co-border"></span></h2>
 									
 									<ul class="fh5co-contact">
