@@ -73,47 +73,47 @@ $(document).ready(function(){
     });
     //Menu 1
     //Título
-    $.get("https://allmaprojetos.github.io/content/servicos/menu1/titulo.html", function(data, status){
+    $.get("https://allmaprojetos.github.io/content/servicos/menus/menu1/titulo.html", function(data, status){
         $('#menu1-titulo').html(data);
     });
     //Descrição
-    $.get("https://allmaprojetos.github.io/content/servicos/menu1/descricao.html", function(data, status){
+    $.get("https://allmaprojetos.github.io/content/servicos/menus/menu1/descricao.html", function(data, status){
         $('#menu1-descricao').html(data);
     });
     //Menu 2
     //Título
-    $.get("https://allmaprojetos.github.io/content/servicos/menu1/titulo.html", function(data, status){
+    $.get("https://allmaprojetos.github.io/content/servicos/menus/menu2/titulo.html", function(data, status){
         $('#menu2-titulo').html(data);
     });
     //Descrição
-    $.get("https://allmaprojetos.github.io/content/servicos/menu1/descricao.html", function(data, status){
+    $.get("https://allmaprojetos.github.io/content/servicos/menus/menu2/descricao.html", function(data, status){
         $('#menu2-descricao').html(data);
     });
     //Menu 3
     //Título
-    $.get("https://allmaprojetos.github.io/content/servicos/menu1/titulo.html", function(data, status){
+    $.get("https://allmaprojetos.github.io/content/servicos/menus/menu3/titulo.html", function(data, status){
         $('#menu3-titulo').html(data);
     });
     //Descrição
-    $.get("https://allmaprojetos.github.io/content/servicos/menu1/descricao.html", function(data, status){
+    $.get("https://allmaprojetos.github.io/content/servicos/menus/menu3/descricao.html", function(data, status){
         $('#menu3-descricao').html(data);
     });
     //Menu 4
     //Título
-    $.get("https://allmaprojetos.github.io/content/servicos/menu1/titulo.html", function(data, status){
+    $.get("https://allmaprojetos.github.io/content/servicos/menus/menu4/titulo.html", function(data, status){
         $('#menu4-titulo').html(data);
     });
     //Descrição
-    $.get("https://allmaprojetos.github.io/content/servicos/menu1/descricao.html", function(data, status){
+    $.get("https://allmaprojetos.github.io/content/servicos/menus/menu4/descricao.html", function(data, status){
         $('#menu4-descricao').html(data);
     });
     //Menu 5
     //Título
-    $.get("https://allmaprojetos.github.io/content/servicos/menu1/titulo.html", function(data, status){
+    $.get("https://allmaprojetos.github.io/content/servicos/menus/menu5/titulo.html", function(data, status){
         $('#menu5-titulo').html(data);
     });
     //Descrição
-    $.get("https://allmaprojetos.github.io/content/servicos/menu1/descricao.html", function(data, status){
+    $.get("https://allmaprojetos.github.io/content/servicos/menus/menu5/descricao.html", function(data, status){
         $('#menu5-descricao').html(data);
     });
 
