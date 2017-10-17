@@ -167,39 +167,43 @@
 								<a href="#project1" class="image-popup">
 									<div class="fh5co-overlay-text"><button type="button" class="btn-nude" data-toggle="modal" data-target="#project1">Saiba Mais</button></div>
 									<div class="fh5co-overlay"></div>
-									<img src="https://allmaprojetos.github.io/content/projetos/projeto1/capa.png" alt="Free HTML5 Template" class="img-responsive">
+									<img src="https://allmaprojetos.github.io/content/projetos/projeto1/capa.png" alt="Capa Projeto 1" class="img-responsive">
 								</a>
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
-								<button type="button" class="btn-nude" data-toggle="modal" data-target="#project2">
-									<div class="fh5co-overlay-text">Saiba Mais</div>
+								<a href="#project2" class="image-popup">
+									<div class="fh5co-overlay-text"><button type="button" class="btn-nude" data-toggle="modal" data-target="#project2">Saiba Mais</button></div>
 									<div class="fh5co-overlay"></div>
 									<img src="https://allmaprojetos.github.io/content/projetos/projeto2/capa.png" alt="Capa Projeto 2" class="img-responsive">
-								</button>
+								</a>
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
-								<button type="button" class="btn-nude" data-toggle="modal" data-target="#project3">
-									<div class="fh5co-overlay-text">Saiba Mais</div>
+								<a href="#project3" class="image-popup">
+									<div class="fh5co-overlay-text"><button type="button" class="btn-nude" data-toggle="modal" data-target="#project3">Saiba Mais</button></div>
 									<div class="fh5co-overlay"></div>
 									<img src="https://allmaprojetos.github.io/content/projetos/projeto3/capa.png" alt="Capa Projeto 3" class="img-responsive">
-								</button>
+								</a>
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
-								<button type="button" class="btn-nude" data-toggle="modal" data-target="#project4">
-									<div class="fh5co-overlay-text">Saiba Mais</div>
+								<a href="#project4" class="image-popup">
+									<div class="fh5co-overlay-text"><button type="button" class="btn-nude" data-toggle="modal" data-target="#project4">Saiba Mais</button></div>
 									<div class="fh5co-overlay"></div>
 									<img src="https://allmaprojetos.github.io/content/projetos/projeto4/capa.png" alt="Capa Projeto 4" class="img-responsive">
-								</button>
+								</a>
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
-									<div class="fh5co-overlay-text">Saiba Mais</div>
+								<a href="#project5" class="image-popup">
+									<div class="fh5co-overlay-text"><button type="button" class="btn-nude" data-toggle="modal" data-target="#project5">Saiba Mais</button></div>
 									<div class="fh5co-overlay"></div>
 									<img src="https://allmaprojetos.github.io/content/projetos/projeto5/capa.png" alt="Capa Projeto 5" class="img-responsive">
+								</a>
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
-									<div class="fh5co-overlay-text">Saiba Mais</div>
+								<a href="#project6" class="image-popup">
+									<div class="fh5co-overlay-text"><button type="button" class="btn-nude" data-toggle="modal" data-target="#project6">Saiba Mais</button></div>
 									<div class="fh5co-overlay"></div>
 									<img src="https://allmaprojetos.github.io/content/projetos/projeto6/capa.png" alt="Capa Projeto 6" class="img-responsive">
+								</a>
 							</div>
 							
 						</div>
