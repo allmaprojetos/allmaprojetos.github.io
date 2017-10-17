@@ -137,24 +137,11 @@ $(document).ready(function(){
     $.get("https://allmaprojetos.github.io/content/contato/telefone3.html", function(data, status){
         $('#telefone3').html(data);
     });
-    /*
+
     //carrega imagens dos carousels
     //carousel1
-    $("#img-carousel1").html("<div class='item active'>" +
-                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem1.png' alt='Imagem 1 do Projeto'>" +
-                            "</div>"+
-                            "<div class='item'>" +
-                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem2.png' alt='Imagem 2 do Projeto'>" +
-                            "</div>" +
-                            "<div class='item'>" +
-                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem3.png' alt='Imagem 3 do Projeto'>" +
-                            "</div>" +
-                            "<div class='item'>" +
-                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem4.png' alt='Imagem 4 do Projeto'>" +
-                            "</div>" +
-                            "<div class='item'>" +
-                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem5.png' alt='Imagem 5 do Projeto'>" +
-                            "</div>");
+    $("#img-carousel1").html("<div class='item active'><img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem1.png' alt='Imagem 1 do Projeto'></div><div class='item'><img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem2.png' alt='Imagem 2 do Projeto'></div><div class='item'><img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem3.png' alt='Imagem 3 do Projeto'></div><div class='item'><img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem4.png' alt='Imagem 4 do Projeto'></div><div class='item'><img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem5.png' alt='Imagem 5 do Projeto'></div>");
+    /*
     $("#img-carousel2").html("<div class='item active'>" +
                                 "<img src='https://allmaprojetos.github.io/content/projetos/projeto2/imagem1.png' alt='Imagem 1 do Projeto'>" +
                             "</div>"+
