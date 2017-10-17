@@ -140,7 +140,7 @@ $(document).ready(function(){
 
     //carrega imagens dos carousels
     //carousel1
-    $(#"img-carousel1").html("<div class='item active'>
+    $("#img-carousel1").html("<div class='item active'>
                                 <img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem1.png' alt='Imagem 1 do Projeto'>
                             </div>
                             <div class='item'>
@@ -156,7 +156,7 @@ $(document).ready(function(){
                             <div class='item'>
                                 <img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem5.png' alt='Imagem 5 do Projeto'>
                             </div>");
-    $(#"img-carousel2").html("
+    $("#img-carousel2").html("
                             <div class='item active'>
                                 <img src='https://allmaprojetos.github.io/content/projetos/projeto2/imagem1.png' alt='Imagem 1 do Projeto'>
                             </div>
@@ -174,7 +174,7 @@ $(document).ready(function(){
                                 <img src='https://allmaprojetos.github.io/content/projetos/projeto2/imagem5.png' alt='Imagem 5 do Projeto'>
                             </div>
                             ");
-    $(#"img-carousel3").html("
+    $("#img-carousel3").html("
                             <div class='item active'>
                                 <img src='https://allmaprojetos.github.io/content/projetos/projeto3/imagem1.png' alt='Imagem 1 do Projeto'>
                             </div>
@@ -192,7 +192,7 @@ $(document).ready(function(){
                                 <img src='https://allmaprojetos.github.io/content/projetos/projeto3/imagem5.png' alt='Imagem 5 do Projeto'>
                             </div>
                             ");
-    $(#"img-carousel4").html("
+    $("#img-carousel4").html("
                             <div class='item active'>
                                 <img src='https://allmaprojetos.github.io/content/projetos/projeto4/imagem1.png' alt='Imagem 1 do Projeto'>
                             </div>
@@ -210,7 +210,7 @@ $(document).ready(function(){
                                 <img src='https://allmaprojetos.github.io/content/projetos/projeto4/imagem5.png' alt='Imagem 5 do Projeto'>
                             </div>
                             ");
-    $(#"img-carousel5").html("
+    $("#img-carousel5").html("
                             <div class='item active'>
                                 <img src='https://allmaprojetos.github.io/content/projetos/projeto5/imagem1.png' alt='Imagem 1 do Projeto'>
                             </div>
@@ -228,7 +228,7 @@ $(document).ready(function(){
                                 <img src='https://allmaprojetos.github.io/content/projetos/projeto5/imagem5.png' alt='Imagem 5 do Projeto'>
                             </div>
                             ");
-    $(#"img-carousel2").html("
+    $("#img-carousel6").html("
                             <div class='item active'>
                                 <img src='https://allmaprojetos.github.io/content/projetos/projeto6/imagem1.png' alt='Imagem 1 do Projeto'>
                             </div>
