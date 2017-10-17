@@ -16,7 +16,7 @@ O texto escrito neste arquivo irá ser apresentado integralmente na parte QUEM S
 MENINAS
 
 Nesta sessão está a foto das três gatinhas da Allma. Para alterar a foto de cada uma de vocês
-basta mudar as fotos com o nome de cada uma na pasta "../content/allma/", sendo que os três nomes
+basta mudar as fotos(formato png) com o nome de cada uma na pasta "../content/allma/", sendo que os três nomes
 devem ser:
 
 - mariloures
@@ -33,7 +33,7 @@ Para alterar a imagem de cada projeto é simples. Basta adicionar a imagem que s
 com o nome capa na pasta "../content/projetos/projetoX/".
 
 Substitui-a o X pelo número do projeto (que deve ser de 1 a 6) e a imagem deve ser um arquivo de
-imagem válido
+imagem png
 
 PROJETOS - TÍTULO
 
@@ -52,7 +52,7 @@ A descrição do projeto poderá ser editada através da edição do conteúdo d
 PROJETOS - IMAGENS
 
 As images que aparecem para exemplificar o projeto devem ser adicionadas na pasta
-"../content/projetos/projetoX/" com o nome "imagemY", sendo Y o número da imagem (devem haver
+"../content/projetos/projetoX/" com o nome "imagemY.png", sendo Y o número da imagem (devem haver
 cinco imagens para cada projeto, nem menos, nem mais) e X o número do projeto (1 a 6)
 
 FRASE DE EFEITO

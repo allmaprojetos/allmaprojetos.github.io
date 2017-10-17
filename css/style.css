@@ -7461,7 +7461,7 @@ p {
   bottom: 0;
   height: 3px;
   position: absolute;
-  background: #44da82;
+  background: #DC7A56;
 }
 @media screen and (max-width: 992px) {
   .fh5co-section-heading .fh5co-border {
@@ -7747,6 +7747,11 @@ p {
 .mfp-with-zoom.mfp-removing .mfp-container,
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0;
+}
+.btn-nude{
+
+  border: none !important;
+  background-color: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */
