@@ -140,110 +140,94 @@ $(document).ready(function(){
 
     //carrega imagens dos carousels
     //carousel1
-    $("#img-carousel1").html("<div class='item active'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem1.png' alt='Imagem 1 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem2.png' alt='Imagem 2 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem3.png' alt='Imagem 3 do Projeto'>
-                            </div>
-
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem4.png' alt='Imagem 4 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem5.png' alt='Imagem 5 do Projeto'>
-                            </div>");
-    $("#img-carousel2").html("
-                            <div class='item active'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto2/imagem1.png' alt='Imagem 1 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto2/imagem2.png' alt='Imagem 2 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto2/imagem3.png' alt='Imagem 3 do Projeto'>
-                            </div>
-
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto2/imagem4.png' alt='Imagem 4 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto2/imagem5.png' alt='Imagem 5 do Projeto'>
-                            </div>
-                            ");
-    $("#img-carousel3").html("
-                            <div class='item active'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto3/imagem1.png' alt='Imagem 1 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto3/imagem2.png' alt='Imagem 2 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto3/imagem3.png' alt='Imagem 3 do Projeto'>
-                            </div>
-
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto3/imagem4.png' alt='Imagem 4 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto3/imagem5.png' alt='Imagem 5 do Projeto'>
-                            </div>
-                            ");
-    $("#img-carousel4").html("
-                            <div class='item active'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto4/imagem1.png' alt='Imagem 1 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto4/imagem2.png' alt='Imagem 2 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto4/imagem3.png' alt='Imagem 3 do Projeto'>
-                            </div>
-
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto4/imagem4.png' alt='Imagem 4 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto4/imagem5.png' alt='Imagem 5 do Projeto'>
-                            </div>
-                            ");
-    $("#img-carousel5").html("
-                            <div class='item active'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto5/imagem1.png' alt='Imagem 1 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto5/imagem2.png' alt='Imagem 2 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto5/imagem3.png' alt='Imagem 3 do Projeto'>
-                            </div>
-
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto5/imagem4.png' alt='Imagem 4 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto5/imagem5.png' alt='Imagem 5 do Projeto'>
-                            </div>
-                            ");
-    $("#img-carousel6").html("
-                            <div class='item active'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto6/imagem1.png' alt='Imagem 1 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto6/imagem2.png' alt='Imagem 2 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto6/imagem3.png' alt='Imagem 3 do Projeto'>
-                            </div>
-
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto6/imagem4.png' alt='Imagem 4 do Projeto'>
-                            </div>
-                            <div class='item'>
-                                <img src='https://allmaprojetos.github.io/content/projetos/projeto6/imagem5.png' alt='Imagem 5 do Projeto'>
-                            </div>
-                            ");
+    $("#img-carousel1").html("<div class='item active'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem1.png' alt='Imagem 1 do Projeto'>" +
+                            "</div>"+
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem2.png' alt='Imagem 2 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem3.png' alt='Imagem 3 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem4.png' alt='Imagem 4 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto1/imagem5.png' alt='Imagem 5 do Projeto'>" +
+                            "</div>");
+    $("#img-carousel2").html("<div class='item active'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto2/imagem1.png' alt='Imagem 1 do Projeto'>" +
+                            "</div>"+
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto2/imagem2.png' alt='Imagem 2 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto2/imagem3.png' alt='Imagem 3 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto2/imagem4.png' alt='Imagem 4 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto2/imagem5.png' alt='Imagem 5 do Projeto'>" +
+                            "</div>");
+    $("#img-carousel3").html("<div class='item active'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto3/imagem1.png' alt='Imagem 1 do Projeto'>" +
+                            "</div>"+
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto3/imagem2.png' alt='Imagem 2 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto3/imagem3.png' alt='Imagem 3 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto3/imagem4.png' alt='Imagem 4 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto3/imagem5.png' alt='Imagem 5 do Projeto'>" +
+                            "</div>");
+    $("#img-carousel4").html"<div class='item active'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto4/imagem1.png' alt='Imagem 1 do Projeto'>" +
+                            "</div>"+
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto4/imagem2.png' alt='Imagem 2 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto4/imagem3.png' alt='Imagem 3 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto4/imagem4.png' alt='Imagem 4 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto4/imagem5.png' alt='Imagem 5 do Projeto'>" +
+                            "</div>");
+    $("#img-carousel5").html("<div class='item active'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto5/imagem1.png' alt='Imagem 1 do Projeto'>" +
+                            "</div>"+
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto5/imagem2.png' alt='Imagem 2 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto5/imagem3.png' alt='Imagem 3 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto5/imagem4.png' alt='Imagem 4 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto5/imagem5.png' alt='Imagem 5 do Projeto'>" +
+                            "</div>");
+    $("#img-carousel6").html("<div class='item active'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto6/imagem1.png' alt='Imagem 1 do Projeto'>" +
+                            "</div>"+
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto6/imagem2.png' alt='Imagem 2 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto6/imagem3.png' alt='Imagem 3 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto6/imagem4.png' alt='Imagem 4 do Projeto'>" +
+                            "</div>" +
+                            "<div class='item'>" +
+                                "<img src='https://allmaprojetos.github.io/content/projetos/projeto6/imagem5.png' alt='Imagem 5 do Projeto'>" +
+                            "</div>");
 });
